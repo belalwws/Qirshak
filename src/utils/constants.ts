@@ -1,8 +1,7 @@
 export const APP_NAME = 'قرشك - Qirshak';
 
-// Use your computer's IP address for mobile testing
-// Run 'ipconfig' in terminal to find your IPv4 address
-export const API_URL = 'http://192.168.1.3:3000/api';
+// Production API URL
+export const API_URL = 'https://qirshak.onrender.com/api';
 
 export const CURRENCIES = [
   { code: 'EGP', symbol: 'ج.م', name: 'Egyptian Pound', nameAr: 'جنيه مصري', nameEn: 'Egyptian Pound' },
